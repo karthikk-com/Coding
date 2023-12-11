@@ -17,14 +17,17 @@
 
 function printPattern(n){
     for(let i=1; i<=n; i++){
+        //Space
         for(let j=1; j<=n-i; j++){
             process.stdout.write(" ");
         }
 
+        //Star
         for(let j=1; j<=(i*2)-1; j++){
             process.stdout.write("*");
         }
 
+        //Space
         for(let k=1; k<=n-i; k++){
             process.stdout.write(" ");
         }
