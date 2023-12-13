@@ -1,5 +1,5 @@
 /**
- * Pattern 7
+ * Pattern 8
  *      *******
  *       *****
  *        ***  
@@ -40,4 +40,4 @@ function printPattern(n){
     }
 }
 
-printPattern(12);
+printPattern(4);
