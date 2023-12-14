@@ -146,3 +146,10 @@ A
 A B
 A B C
 ```
+
+### Pattern 15
+```
+A B C
+A B
+A
+```
