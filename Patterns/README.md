@@ -154,6 +154,14 @@ A B
 A
 ```
 
+### Pattern 16
+```
+A
+B B
+C C C
+```
+
+
 ## Notes
 1. Did not use console.log("*"), to cut down the trailling space. Instead used "process.stdout.write"
 2. process.stdout.write(j+''); // This prints only strings. Hence if you need to print an integer, convert to string by concatenation
