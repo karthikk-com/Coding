@@ -153,3 +153,15 @@ A B C
 A B
 A
 ```
+
+## Notes
+1. Did not use console.log("*"), to cut down the trailling space. Instead used "process.stdout.write"
+2. process.stdout.write(j+''); // This prints only strings. Hence if you need to print an integer, convert to string by concatenation
+3. Analyis the space pattern to print as well.
+4. Identify the symentry
+5. Use simple math whenever required. ex: to print 0 & 1,if start=0,  start = 1 - start; to manipulate.
+6. For iterating over alphabet, Use ASCII values
+   ASCII code for "A" is 65 (Uppercase is between 65-90)
+   ASCII code for 'a' is 97 (lowercase is between 97-122)
+7. To reterieve the character associated with the ASCII Number 
+   String.fromCharCode(<ASCII number>) - inbuilt method 
