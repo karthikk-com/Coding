@@ -170,6 +170,15 @@ N = 3
 ABCBA
 ```
 
+### Pattern 18
+```
+N=3
+C
+B C
+A B C
+
+```
+
 
 ## Notes
 1. Did not use console.log("*"), to cut down the trailling space. Instead used "process.stdout.write"
