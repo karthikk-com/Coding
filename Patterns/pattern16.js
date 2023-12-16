@@ -6,7 +6,7 @@ B B
 C C C
 */
 
-/* Analyse
+/* Inference
 row = 3 (Outer loop)
 
 Incrementing

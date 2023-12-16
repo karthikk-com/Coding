@@ -161,6 +161,15 @@ B B
 C C C
 ```
 
+### Pattern 17
+```
+N = 3
+
+  A  
+ ABA 
+ABCBA
+```
+
 
 ## Notes
 1. Did not use console.log("*"), to cut down the trailling space. Instead used "process.stdout.write"
@@ -172,4 +181,5 @@ C C C
    ASCII code for "A" is 65 (Uppercase is between 65-90)
    ASCII code for 'a' is 97 (lowercase is between 97-122)
 7. To reterieve the character associated with the ASCII Number 
-   String.fromCharCode(<ASCII number>) - inbuilt method 
+   String.fromCharCode(<ASCII number>) - inbuilt method
+8. If sysmentry identify the breakpoint

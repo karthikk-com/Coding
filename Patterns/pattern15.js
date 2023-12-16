@@ -11,7 +11,7 @@ ASCII code for 'a' is 97 (lowercase is between 97-122)
 String.fromCharCode(<ASCII number>) - inbuilt method to reterieve the character associated with the ASCII Number
 */
 
-/* Analysis
+/* Inference
 Number of rows = 3 (Outer loop)
 
 Decrementing
