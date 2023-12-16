@@ -176,9 +176,25 @@ N=3
 C
 B C
 A B C
-
 ```
 
+### Pattern19
+```
+N = 6
+Result:   
+************
+*****  *****
+****    ****
+***      ***
+**        **
+*          *
+*          *
+**        **
+***      ***
+****    ****
+*****  *****
+************
+```
 
 ## Notes
 1. Did not use console.log("*"), to cut down the trailling space. Instead used "process.stdout.write"
