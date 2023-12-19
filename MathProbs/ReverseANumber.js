@@ -17,11 +17,10 @@ Output: 21
 class solution{
     reverseANumber(num){
         let x = num;
-        let lastDigit ;
         let reverseNumber = 0;
 
         while(x!=0){ // x<0 can also be made however, this will not allow negative value to pass in.
-            lastDigit = x%10;
+            let lastDigit = x%10;
             x=parseInt(x/10);
             reverseNumber = (reverseNumber*10)+lastDigit;
         }
@@ -32,3 +31,5 @@ class solution{
 
 const solObj = new solution();
 console.log(solObj.reverseANumber(-123));
+
+
