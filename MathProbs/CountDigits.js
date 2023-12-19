@@ -23,7 +23,7 @@ function countTheDigit(n){
         let x =n;
         
         while(x>0){
-            x=Math.floor(x/10);
+            x=Math.floor(x/10); // you can also use -> x = parseInt(x/10);
             counter++;
         }
         return counter;
