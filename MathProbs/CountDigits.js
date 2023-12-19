@@ -18,7 +18,7 @@ Also, make use of a counter at each iteration to know the number of digits.
 */
 
 function countTheDigit(n){
-    if(Number.isInteger(num)){
+    if(Number.isInteger(n)){
         let counter = 0;
         let x =n;
         
@@ -33,3 +33,23 @@ function countTheDigit(n){
 }
 
 console.log(countTheDigit(1232));
+
+/* Another method using Logirithmic */
+function countTheDigitByUsingLog(n){
+    if(Number.isInteger(n)){
+        return parseInt(Math.log10(n)+1);
+    }
+
+    return "Not a number"
+}
+
+console.log(countTheDigitByUsingLog(12342))
+
+/* Time Complexity 
+
+O(log10(N)) - Since we divide by 10 each time.
+
+If the division is by 10 -> then it is log base 10 (N)
+If the division is by 2 - > then it is log base 2 (N)
+NOTE: Whenever you write a logic, with the number of iterations depending on division(i.e by dividing the number), then the time complexity will be logirithmic always.
+*/
