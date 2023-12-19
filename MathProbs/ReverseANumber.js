@@ -19,7 +19,7 @@ class solution{
         let x = num;
         let reverseNumber = 0;
 
-        while(x!=0){ // x<0 can also be made however, this will not allow negative value to pass in.
+        while(x!=0){ // x>0 can also be made however, this will not allow negative value to pass in.
             let lastDigit = x%10;
             x=parseInt(x/10);
             reverseNumber = (reverseNumber*10)+lastDigit;
