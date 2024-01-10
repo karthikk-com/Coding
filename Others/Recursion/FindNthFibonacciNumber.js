@@ -14,9 +14,8 @@ F{n}=F{n-1}+F{n-2} for n > 1
 //O(n) - Linear
 function findNthFibonacciNumber(n){
     if (n <= 1) return n;
-    let first = 0,
-      next = 1,
-      sum = 0;
+    let first = 0, next = 1, sum = 0;
+    
     for (let i = 2; i <= n; i++) {
       sum = first + next;
       first = next;
