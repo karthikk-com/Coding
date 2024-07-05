@@ -1,17 +1,29 @@
 # Patterns
 
-> Nested loops
+> **Nested loops**
 ```
 1. Outer Loop - Specifically for the rows
 2. Inner Loop - Specifically for the columns 
 ```
-
 
 > **Rules to solve**
 * For the outer loop - count the number of lines ( rows )
 * For the inner loop - Focus on the problems and connect them somehow to the rows
 * Whatever you want to print, Print inside the inner loop
 * Observe symmetry in case of some patterns ( Optional )
+
+## Notes
+1. Did not use console.log("*"), to cut down the trailing space. Instead used "process.stdout.write" in Javascript
+2. process.stdout.write(j+''); // In JS, This prints only strings. Hence if you need to print an integer, convert to string by concatenation
+3. Analysis the space before and after the stars or any pattern to print as well.
+4. Identify the symmetry
+5. Use simple math whenever required. ex: to print 0 & 1,if start=0,  start = 1 - start; to manipulate.
+6. For iterating over alphabet, Use ASCII values
+   ASCII code for "A" is 65 (Uppercase is between 65-90)
+   ASCII code for 'a' is 97 (lowercase is between 97-122)
+7. To retrieve the character associated with the ASCII Number 
+   String.fromCharCode(<ASCII number>) - inbuilt method
+8. If it has symmetry, then identify the breakpoint
 
 
 ### Pattern 1
@@ -228,15 +240,3 @@ Result:
 3 3 3 3 3
 ```
 
-## Notes
-1. Did not use console.log("*"), to cut down the trailling space. Instead used "process.stdout.write"
-2. process.stdout.write(j+''); // This prints only strings. Hence if you need to print an integer, convert to string by concatenation
-3. Analyis the space pattern to print as well.
-4. Identify the symentry
-5. Use simple math whenever required. ex: to print 0 & 1,if start=0,  start = 1 - start; to manipulate.
-6. For iterating over alphabet, Use ASCII values
-   ASCII code for "A" is 65 (Uppercase is between 65-90)
-   ASCII code for 'a' is 97 (lowercase is between 97-122)
-7. To reterieve the character associated with the ASCII Number 
-   String.fromCharCode(<ASCII number>) - inbuilt method
-8. If sysmentry identify the breakpoint
