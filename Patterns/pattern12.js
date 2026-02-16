@@ -62,4 +62,3 @@ function printPattern2(n){
 }
 
 printPattern(6);
-printPattern2(6);
